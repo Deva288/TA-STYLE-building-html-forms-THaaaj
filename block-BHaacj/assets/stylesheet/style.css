@@ -123,8 +123,8 @@ q:after {
 	content: "";
 	content: none;
 }
-html{
-  font-size: 18px;
+html {
+	font-size: 18px;
 }
 table {
 	border-collapse: collapse;
@@ -158,8 +158,8 @@ body {
 	flex: 0 1 40%;
 }
 /* width */
-.width-full{
-  width: 100%;
+.width-full {
+	width: 100%;
 }
 /* Header */
 .header {
@@ -220,7 +220,7 @@ body {
 	padding: 32px;
 	margin: 0 auto;
 	margin-top: 50px;
-  text-align: start;
+	text-align: start;
 }
 .banner-form label {
 	font-size: 14px;
@@ -230,7 +230,6 @@ body {
 	border: none;
 	padding: 10px;
 }
-
 
 .check-in-out {
 	margin-top: 20px;
@@ -249,39 +248,63 @@ body {
 	color: #fff;
 	background-color: rgba(94, 94, 226, 0.719);
 }
+/* Priority */
+h2 {
+	font-size: 32px;
+	font-weight: 500;
+	text-align: center;
+	text-transform: uppercase;
+}
+strong {
+	font-weight: 700;
+}
+.priority-values {
+	font-size: 12px;
+	text-align: center;
+}
+.priority-btn {
+	color: white;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 8px 12px;
+	background-color: rgba(12, 216, 148, 0.774);
+	border: 0;
+	display: block;
+	margin: 30px auto;
+}
 /* Map */
-.map{
-  position: relative;
+.map {
+	position: relative;
 }
-.map-overlay{
-  position: absolute;
-  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 1;
+.map-overlay {
+	position: absolute;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
 }
-.contact-form{
-  position: absolute;
-  width: 40%;
-  height: 50vh;
-  right: 6%;
-  top: 12%;
-  z-index: 1;
+.contact-form {
+	position: absolute;
+	width: 40%;
+	height: 50vh;
+	right: 6%;
+	top: 12%;
+	z-index: 1;
 	padding: 20px;
-  background-color: rgba(255, 255, 255, 0.979);
+	background-color: rgba(255, 255, 255, 0.979);
 }
-.contact-form input{
+.contact-form input {
 	padding: 12px 5px;
 	border: 0;
 	background-color: rgba(204, 200, 196, 0.336);
 }
-.subject{
+.subject {
 	width: 98%;
 	margin-top: 10px;
 }
-textarea{
+textarea {
 	width: 98%;
 	height: 150px;
 	margin-top: 10px;
@@ -289,7 +312,7 @@ textarea{
 	padding: 5px;
 	background-color: rgba(204, 200, 196, 0.336);
 }
-.contact-form button{
+.contact-form button {
 	padding: 10px;
 	width: 100%;
 	margin-top: 20px;
@@ -298,7 +321,7 @@ textarea{
 	border: 0;
 }
 /* Footer */
-.footer{
+.footer {
 	background-color: rgba(12, 216, 148, 0.774);
 	padding: 30px 0;
 	text-align: center;
